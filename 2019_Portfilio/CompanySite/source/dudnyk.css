@@ -1,0 +1,146 @@
+/*font styling*/
+ p {
+     font-family: 'Montserrat', 'Montserrat-Bold';
+}
+ header {
+     font-family: 'Montserrat', 'Montserrat-Bold';
+}
+ a {
+     font-family: 'Montserrat', 'Montserrat-Bold';
+     font-weight: bold;
+}
+/*bootstrap style overides*/
+/*changes link colors*/
+ .navbar-nav a {
+     color: #641220 !important;
+}
+.navbar-nav a:hover {
+     color:#4a8a54 !important;
+}
+/*top right style*/
+ .top_right_info{
+     padding-top:10px;
+     padding-right:0 !important;
+}
+ .top_right_font_color{
+     color:#4a8a54;
+}
+ .top_right_font_color_p{
+     color:#641220;
+}
+/*centers description on slide*/
+ .carousel-caption {
+     color: #641220 !important;
+     font-size: 3rem;
+     width:100% !important;
+     left:0 !important ;
+     bottom:80px!important ;
+     right:0!important ;
+}
+ .header_slide{
+     font-weight:bold;
+}
+ .description_slide {
+     font-size: 1rem;
+     font-weight: bold;
+}
+/*allows fullscreen slides*/
+ .slideshow_fix {
+     padding: 0px !important;
+}
+/*allows full width content*/
+ .bottom_content {
+     padding: 0px !important;
+}
+ .btn-primary {
+     background-color: #4a8a54 !important;
+     border-color: #4a8a54 !important;
+}
+ .btn {
+     margin-top: 10px;
+     border-radius: 0 !important;
+     font-size: .7rem !important;
+     padding: 10px 30px!important;
+     color: #acc5b0!important;
+}
+/* brings contact us info inline with mockup*/
+ .table td {
+     padding: 0rem !important;
+}
+ .table th {
+     padding: 0rem !important;
+     color: #4a8a54;
+}
+/*style overides end*/
+/*center page styles*/
+ .middle_description {
+     background-color: #641220;
+}
+ .middle_description p {
+     font-size: 1rem;
+     width: 60%;
+     margin: auto;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     color: #e1e1d9;
+}
+ .services {
+     margin-top: 10px;
+     padding-left: 0px;
+     margin-left: 0px;
+}
+ .services_1, .contact_1 {
+     color: #4b8a55;
+     margin-bottom: 20px;
+     width: 80%;
+}
+ .middle_styles {
+     margin-top: 15px;
+     border-top: .5px solid #dfdfe0;
+     margin-bottom: 3rem;
+}
+ .contact {
+     margin-top: 10px;
+     padding-left: 0px;
+     margin-left: 0px;
+}
+ .mid_content_styles {
+     border-left: solid .5px #dfdfe0;
+}
+/*footer styles*/
+ .footer {
+     margin-top: 10px;
+     padding-top:50px;
+     background-color: #641220;
+}
+ .color_footer_text {
+     color: #627049;
+}
+ .copyright{
+     color:#8f8184;
+     font-size:.7rem;
+     font-weight: bold;
+}
+/*Media Queries*/
+/* limits container to 960px remove this for full screen*/
+ @media only screen and (min-width: 960px) {
+     .container-fluid{
+         width: 960px !important;
+    }
+     .navbar{
+         padding-right:0px !important;
+    }
+}
+ @media only screen and (max-width: 767px) {
+     .contact {
+         margin-top: 2rem;
+         border-top: solid .5px #dfdfe0;
+    }
+     .top_right_info{
+         display:none;
+    }
+     .slideshow_hide_mobile{
+         display:none;
+    }
+}
+ 

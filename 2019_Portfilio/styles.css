@@ -1,0 +1,193 @@
+/*universal css*/
+.container-fluid {
+    width:100%!important;
+}
+
+.logo {
+    font-family: 'Sniglet', cursive;
+
+}
+/*top section*/
+.top_title {
+    height:100%;
+    margin-bottom:0px!important;
+}
+.nav-link{
+    color:#383838!important;
+}
+.slogan{ 
+    padding-top:150px!important;
+    padding-bottom:150px!important;
+
+    background-color: #45A2E8;
+}
+.fade1 {
+    -webkit-animation: fadein 1.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.0s; /* Firefox < 16 */
+        -ms-animation: fadein 1.0s; /* Internet Explorer */
+         -o-animation: fadein 1.0s; /* Opera < 12.1 */
+            animation: fadein 1.0s;
+            animation-fill-mode: forwards;
+}
+.fade2 {
+    -webkit-animation: fadein 2.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.0s; /* Firefox 2 16 */
+        -ms-animation: fadein 2.0s; /* Internet Explorer */
+         -o-animation: fadein 2.0s; /* Opera < 12.1 */
+            animation: fadein 2.0s;
+            animation-fill-mode: forwards;
+}
+.fade3 {
+    -webkit-animation: fadein 3.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3.0s; /* Firefox < 16 */
+        -ms-animation: fadein 3.0s; /* Internet Explorer */
+         -o-animation: fadein 3.0s; /* Opera < 12.1 */
+            animation: fadein 3.0s;
+            animation-fill-mode: forwards;
+}
+.fade4 {
+    -webkit-animation: fadein 4.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4.0s; /* Firefox < 16 */
+        -ms-animation: fadein 4.0s; /* Internet Explorer */
+         -o-animation: fadein 4.0s; /* Opera < 12.1 */
+            animation: fadein 4.0s;
+            animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.description {
+    margin-top:20px !important;
+    width:100%;
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.shrink_para{
+    width:60%;
+    margin: 0 auto;
+}
+.work_done{
+    background-color: #45A2E8;
+}
+
+
+/*top section end*/
+
+/*mid section start*/
+.projects {
+margin: 0 auto;
+margin-top:25px;
+padding:75px;
+}
+.inline {
+    display: inline-block;
+    color:white;
+    font-weight: normal!important;
+}
+.inline2 {
+    margin:0 auto;
+    font-weight: normal!important;
+}
+.inline3{
+    display: inline;
+}
+.img_pad{
+    padding-top:20px;
+    padding-right:30px;
+    padding-left:30px;
+}
+.showcase {
+    width:50%;
+}
+/*form*/
+.center-form{
+    margin-top:40px!important;
+}
+.requests {
+    width: 80%;
+}
+.form-group{
+    margin:00px auto;
+    width: 80%;
+}
+
+/*footer*/
+.footer{
+    padding-top:0px;
+    margin-top:40px;
+    background-color: #45A2E8;
+    padding:10px;
+}
+
+/*Resume */
+.modal-content{
+padding:20px!important;
+}
+.skills{
+    list-style: none;
+    margin-left:0px;
+    padding-left:10px;
+}
+.About_Me{
+    margin-top:20px;
+}
+.social_contact {
+    display: inline;  
+}.social_icons{
+    padding-bottom:20px;
+}
+.certs_skills{
+    margin-top:20px;
+}
+.position_held{
+    font-weight: bold;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+    .skills {
+        display:block;
+    }
+    .need_dev{
+        margin-top:15px;
+    }
+    .form-group{
+        margin-top:5px !important;
+    }
+    .projects{
+        margin-top:0px;
+    }
+    .shrink_para{
+        width: 100% !important;
+    }
+    .fade1,.fade2{
+        margin: 0 auto;
+    }
+    .fade2{
+        font-size: 1rem;
+    }
+
+}
