@@ -8,7 +8,7 @@ if($_POST["message"]) {
 <html lang="en">
 
 <head>
-    <title>Mikedaniel</title>
+    <title>ShortStacks</title>
      <meta name="viewport" content="width=device-width initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
@@ -66,7 +66,7 @@ if($_POST["message"]) {
              <p class= "social_contact""><a href=" https://www.linkedin.com/in/mikedaniel-ocasio-b97205bb/"target="_blank" ><img src="Project_Images/linkedin.svg" height="40px" width="40px"></a></p>
             </span>
                 <p class="About_Me">Driven tech professional with technical and leadership skills. I am a self-taught Front End Web Developer
-                looking to start my career in a Junior role. I have three years of experience managing a technical support team and six years
+                looking to start my career in a Junior role. With three years of experience managing a technical support team and six years
                 of troubleshooting Apple computers and small devices.</p>
             <h3 class ="certs_skills">Skills</h3>
             <div class ="row skills_background">
@@ -162,20 +162,16 @@ if($_POST["message"]) {
         
 <div class = "row">
 <div class = "col-12 slogan">
-<h1 class =" fade1 text-center">Website.</h1>
-<h1 class=" fade2 text-center">Design.</h1>
-<h1 class="fade3 text-center">Solution.</h1>
-<h1 class="fade4 text-center">Short.</h1>
+<h1 class ="fade1 text-center">Mikedaniel</h1>
+<h1 class="fade2 text-center">Front-End Developer</h1>
 </div>
 </div>
 <div class ="row text-center">
     <div class ="col-12 text-center">
         <div class ="description">
-            <h3 class =text-center>Affordable.Reliable.Friendly</h3>
+            <h3 class =text-center>Looking to grow</h3>
 <p class ="shrink_para">
-    We help small businesses bring their passion online. If you need something quick, 
-    reliable and beautiful shortSTACK has got your back. We don't overcharge like the big guys,
-     and we work with you  to get to a price that works for you.</p>
+    My passion has always been in technology. I'm a self taught Front End Developer,</p>
 </div>
 </div>
 </div>
@@ -204,16 +200,13 @@ if($_POST["message"]) {
     <input type="email" class="form-control" id="email">
 </div>
 <div class ="requests inline2">
-   <form method ="post" action="index.php">
+ <form method ="post" action="index.php">
 <textarea name="message" class="form-control" rows="4" id="comment"></textarea>
     <input type="submit">
-</form>
-</div>
-
 </div>
 
 
-
+</div>
 
 
 </div>
