@@ -60,7 +60,7 @@
              <p class= "social_contact""><a href=" https://www.linkedin.com/in/mikedaniel-ocasio-b97205bb/"target="_blank" ><img src="Project_Images/linkedin.svg" height="40px" width="40px"></a></p>
             </span>
                 <p class="About_Me">Driven tech professional with technical and leadership skills. I am a self-taught Front End Web Developer
-                looking to start my career in a Junior role. With three years of experience managing a technical support team and six years
+                looking to start my career in a Junior role. I have three years of experience managing a technical support team and six years
                 of troubleshooting Apple computers and small devices.</p>
             <h3 class ="certs_skills">Skills</h3>
             <div class ="row skills_background">
