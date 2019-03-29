@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("mikedaniel.ocasio@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -198,7 +204,7 @@
     <input type="email" class="form-control" id="email">
 </div>
 <div class ="requests inline2">
-<textarea class="form-control" rows="4" id="comment"></textarea></textarea>
+<textarea name="message" class="form-control" rows="4" id="comment"></textarea></textarea>
 </div>
     <input type="submit">
 
