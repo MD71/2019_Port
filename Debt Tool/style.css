@@ -1,0 +1,14 @@
+body {
+    background-color: #018296;
+}
+#your_income_weekly { 
+    display: none;
+}#your_income_biweekly { 
+    display: none;
+}
+#debt {
+    display:none;
+}
+#your_debts {
+    margin: 0 auto;
+}

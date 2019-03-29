@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="income.js"></script>
+        <script src="debt.js"></script> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel = "stylesheet" type = "text/css" href="style.css">
+    </head>
+<title>Dave Ramsey Debt Calculator</title>
+<body>
+    <div class = "container">
+    <div id= "Debt_Snowball">
+        <h1 class="title text-center"> Trash your Debt </h1>
+        <!--income type-->
+        <div id = "income_type">
+        <h2 class = "text-center">Do you get paid weekly or biweekly?</h2>
+            <div class="text-center">
+        <input type="button" id="weekly" value="Weekly" onclick = "weekly()" />
+        <input type="button" id="bi-weekly" value="Bi-Weekly" onclick="bi_weekly()" />
+        </div>
+        </div>
+        <!---Lets ask you to input your income-->
+        <div id = "your_income_weekly">
+            <div class="text-center">
+            <h4 class =>What is your weekly net income?</h4>
+            <input type = "text" id= "net_amount">
+            <input type = button value ="submit" onclick ="grab_net_weekly()"></button>
+            </div>
+        </div>
+        <div id="your_income_biweekly">
+             <div class="text-center">
+            <h4>What is your bi-weekly income?</h4>
+            <input type="text" id="net_amount_bi">
+            <input type=button value="submit" onclick="grab_net_biweekly()"></button>
+        </div>
+        </div>
+    </div>
+<div id = "debt">
+    <!--debt besides house?, YES OR NO?-->
+    <h2>Do you have debt, not including your home?</h2>
+    <input type = "button" id ="yes_debt" value ="Yes" onclick ="FUNCTION()" />
+        <input type="button" id="no_debt" value="No" onclick="FUNCTION()" />
+</div>
+<div id = "how_much_debt?">
+        <!--How may items do you owe money on, or... let them keep adding and then click done-->
+        <h2 class = "text-center">Start listing your debt</h2>
+<ol id ="your_debts">
+    <li><input type= "text" id = "type_debt">
+    <input type ="text" id = "debt_amount"><input type ="button" value ="+" onclick="add_debt()"></li>
+</ol>
+<input type = "button" value ="Finished!" onclick = "finished()">
+</div>
+</div>
+</body>
+
+</html>
