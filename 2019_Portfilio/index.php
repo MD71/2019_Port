@@ -170,7 +170,7 @@ if($_POST["message"]) {
     <div class ="col-12 text-center">
         <div class ="description">
             <h3 class =text-center>Looking to Grow</h3>
-            <img class="text-center" src ="plant.svg" height="60px" width="60px">
+            <img class="text-center" src ="Project_Images/plant.svg" height="60px" width="60px">
 <p class ="shrink_para">
 I'm a self-taught developer looking to utilize my skills in a meaningful way. I love to learn new things and believe it is essential to any role I'm in.
  I want to be part of a culture where I can grow and contribute with others that share my same passion for development. </p>
