@@ -8,7 +8,7 @@ if($_POST["message"]) {
 <html lang="en">
 
 <head>
-    <title>ShortStacks</title>
+    <title>Mikedaniel</title>
      <meta name="viewport" content="width=device-width initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
@@ -31,21 +31,14 @@ if($_POST["message"]) {
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light ">
-        <a class="navbar-brand logo">short<span style="color:#45A2E8">STACK</span></a>
+        <a class="navbar-brand logo">Mikedaniel<span style="color:#45A2E8"> Ocasio</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-uppercase" href="#">About
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">PROJECTS</a>
-                </li>
+               
                 <li class="nav-item align-top">
                     <a class="nav-link text-uppercase" data-toggle="modal" data-target="#exampleModalLong" href="#">Resume</a>
                 </li>
@@ -180,9 +173,9 @@ I'm a self-taught developer looking to utilize my skills in a meaningful way. I 
 <div class = "row"> 
 <div class = "col-12 work_done">
 <div class="projects text-center">
-<a href ="news_template/index.html"><img src="Project_Images/News.svg" class="img-fluid img_pad" height="150" width="160" alt="Responsive image"></a>
-<a href ="https://israelscure.com/"><h2 class="inline img_pad">Israels Journey</h2>
-<a href ="CompanySite/source/dudnyk.html"><img src="Project_Images/Project_1.svg" class="img-fluid img_pad" height="140" width="160" alt="Responsive image"></a>
+<a href ="news_template/index.html" target="_blank"><img src="Project_Images/News.svg" class="img-fluid img_pad" height="150" width="160" alt="Responsive image"></a>
+<a href ="https://israelscure.com/" target="_blank"><h2 class="inline img_pad">Israels Journey</h2>
+<a href ="CompanySite/source/dudnyk.html" target="_blank"><img src="Project_Images/Project_1.svg" class="img-fluid img_pad" height="140" width="160" alt="Responsive image"></a>
 
 </div>
 </div>
