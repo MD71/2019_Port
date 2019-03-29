@@ -89,6 +89,9 @@
     width:60%;
     margin: 10px auto;
 }
+.growth {
+    color:green;
+}
 .work_done{
     background-color: #45A2E8;
 }
