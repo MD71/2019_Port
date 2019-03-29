@@ -189,7 +189,7 @@
 <h4 class ="text-center">Let's connect</h4>
 </div>
 <div class="col-md-6 col-sm-12">
-<div class="form-group inline2 center-form">
+<div class="form-group inline2 center-form" method ="post" action="index.php">
     <label for="usr">Name:</label>
     <input type="text" class="form-control" id="name">
 </div>
@@ -200,8 +200,12 @@
 <div class ="requests inline2">
 <textarea class="form-control" rows="4" id="comment"></textarea></textarea>
 </div>
+    <input type="submit">
 
 </div>
+
+
+
 
 
 </div>
