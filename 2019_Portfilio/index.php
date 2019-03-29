@@ -204,12 +204,11 @@ if($_POST["message"]) {
     <input type="email" class="form-control" id="email">
 </div>
 <div class ="requests inline2">
-   <form method ="post" action="contact.php">
+   <form method ="post" action="index.php">
 <textarea name="message" class="form-control" rows="4" id="comment"></textarea>
     <input type="submit">
 </form>
 </div>
-
 
 </div>
 
