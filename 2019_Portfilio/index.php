@@ -163,7 +163,7 @@ if($_POST["message"]) {
 <div class = "row">
 <div class = "col-12 slogan">
 <h1 class ="fade1 text-center">Mikedaniel</h1>
-<h1 class="fade2 text-center">Front-End Developer</h1>
+<h4 class="fade2 text-center">Front-End Developer</h4>
 </div>
 </div>
 <div class ="row text-center">
