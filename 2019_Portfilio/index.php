@@ -66,7 +66,7 @@ if($_POST["message"]) {
              <p class= "social_contact""><a href=" https://www.linkedin.com/in/mikedaniel-ocasio-b97205bb/"target="_blank" ><img src="Project_Images/linkedin.svg" height="40px" width="40px"></a></p>
             </span>
                 <p class="About_Me">Driven tech professional with technical and leadership skills. I am a self-taught Front End Web Developer
-                looking to start my career in a Junior role. With three years of experience managing a technical support team and six years
+                looking to start my career in a Junior role. I have three years of experience managing a technical support team and six years
                 of troubleshooting Apple computers and small devices.</p>
             <h3 class ="certs_skills">Skills</h3>
             <div class ="row skills_background">
@@ -169,9 +169,11 @@ if($_POST["message"]) {
 <div class ="row text-center">
     <div class ="col-12 text-center">
         <div class ="description">
-            <h3 class =text-center>Looking to grow</h3>
+            <h3 class =text-center>Looking to Grow</h3>
+            <img class="text-center" src ="plant.svg" height="60px" width="60px">
 <p class ="shrink_para">
-    My passion has always been in technology. I'm a self taught Front End Developer,</p>
+I'm a self-taught developer looking to utilize my skills in a meaningful way. I love to learn new things and believe it is essential to any role I'm in.
+ I want to be part of a culture where I can grow and contribute with others that share my same passion for development. </p>
 </div>
 </div>
 </div>
