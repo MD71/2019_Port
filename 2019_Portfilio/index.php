@@ -195,7 +195,7 @@ if($_POST["message"]) {
 <h4 class ="text-center">Let's connect</h4>
 </div>
 <div class="col-md-6 col-sm-12">
-<div class="form-group inline2 center-form" method ="post" action="index.php">
+<div class="form-group inline2 center-form">
     <label for="usr">Name:</label>
     <input type="text" class="form-control" id="name">
 </div>
@@ -204,9 +204,11 @@ if($_POST["message"]) {
     <input type="email" class="form-control" id="email">
 </div>
 <div class ="requests inline2">
+   <form method ="post" action="index.php>
 <textarea name="message" class="form-control" rows="4" id="comment"></textarea></textarea>
-</div>
     <input type="submit">
+</form>
+</div>
 
 </div>
 
